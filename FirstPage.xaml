@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AquaSmart.FirstPage">
+    <ContentPage.Content>
+        
+        <StackLayout Padding="0,0,20,0" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+            <Image x:Name="platform_image" WidthRequest="200" Opacity="0.2" HeightRequest="300" VerticalOptions="Center" HorizontalOptions="Center">
+               
+            </Image>
+                <Label x:Name="Aqua" Text="AQUASMART" TextColor="Black" Opacity="0.2" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"></Label>
+            <ActivityIndicator x:Name="Act" Color="Red"  IsRunning="False" Opacity="0.8" IsEnabled="False" IsVisible="False" HorizontalOptions="Center" VerticalOptions="Center"></ActivityIndicator>
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand">
+                <Label x:Name="Power" Text="Powered by" Opacity="0.2" InputTransparent="True" TextColor="Black" VerticalTextAlignment="End" HorizontalTextAlignment="End"  FontSize="Default"></Label>
+                <Image x:Name="neo_image" WidthRequest="70" HeightRequest="50" Opacity="0.2"></Image>
+            </StackLayout>
+            <Label x:Name="Neotech" Text="Neotech Systems Pvt. Ltd."  Opacity="0.2" InputTransparent="True" TextColor="Black" VerticalTextAlignment="End" HorizontalTextAlignment="End" VerticalOptions="EndAndExpand"  FontSize="Default"></Label>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
